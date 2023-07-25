@@ -101,6 +101,7 @@ function App() {
           <a
             href="https://github.com/shu-bham-dev/text-to-options-converter"
             target="_blank"
+            rel="noopener"
           >
             Github
           </a>
