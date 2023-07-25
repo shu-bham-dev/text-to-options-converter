@@ -60,7 +60,7 @@ function App() {
           />
         </div>
         <div className="flex-1 p-2 overflow-auto">
-          <pre className="overflow-y-scroll h-96 text-sm bg-gray-100 dark:bg-gray-800 rounded-lg p-2 whitespace-pre-wrap">
+          <pre className="overflow-y-scroll h-96 text-sm bg-gray-100 dark:bg-gray-800 rounded-lg p-2 whitespace-pre-wrap text-white">
             {JSON.stringify(options, null, 2)}
           </pre>
           <button
@@ -98,7 +98,12 @@ function App() {
       </main>
       <footer className="text-center py-4 bg-black dark:bg-gray-900">
         <p className="font-bold italic text-white transform hover:translate-y-px hover:shadow-lg hover:duration-300">
-          Developed by Shubham Sahu
+          <a
+            href="https://github.com/shu-bham-dev/text-to-options-converter"
+            target="_blank"
+          >
+            Github
+          </a>
         </p>
       </footer>
       <button
