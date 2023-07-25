@@ -64,7 +64,7 @@ function App() {
             {JSON.stringify(options, null, 2)}
           </pre>
           <button
-            className="px-4 py-2 bg-blue-500 hover:bg-blue-600 active:bg-blue-700 text-white rounded-md shadow-md transition-colors duration-300 ease-in-out"
+            className="mt-2 px-4 py-2 bg-blue-500 hover:bg-blue-600 active:bg-blue-700 text-white rounded-md shadow-md transition-colors duration-300 ease-in-out"
             onClick={convertToOptions}
           >
             Convert
