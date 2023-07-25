@@ -98,11 +98,7 @@ function App() {
       </main>
       <footer className="text-center py-4 bg-black dark:bg-gray-900">
         <p className="font-bold italic text-white transform hover:translate-y-px hover:shadow-lg hover:duration-300">
-          <a
-            href="https://github.com/shu-bham-dev/text-to-options-converter"
-            target="_blank"
-            rel="noopener"
-          >
+          <a href="https://github.com/shu-bham-dev/text-to-options-converter">
             Github
           </a>
         </p>
